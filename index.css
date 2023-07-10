@@ -25,3 +25,31 @@
 .js {
     justify-content: space-between;
 }
+
+.gap-1 {
+    gap: 10px;
+}
+
+.gap-2 {
+    gap: 20px;
+}
+
+.gap-3 {
+    gap: 30px;
+}
+
+.pt-1 {
+    padding-top: 10px;
+}
+
+.pt-2 {
+    padding-top: 20px;
+}
+
+.ptd {
+    padding: 10px 0;
+}
+
+.ac {
+    color: white;
+}
