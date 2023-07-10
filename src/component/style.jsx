@@ -1,11 +1,11 @@
 import styled from 'styled-components'
 
 export const Header = styled.header`
-position: relative;
 display: flex;
 flex-direction: column;
-background-color: lightgreen;
+background-color: #e0de59;
 padding: 3px 40px 0px ;
+overflow: hidden;
 `
 export const Div = styled.div`
 display: flex;
@@ -13,7 +13,7 @@ justify-content: space-between;
 align-items: center;
 `
 export const DivColor = styled.div`
-background-color: brown;
+background-color: #997410;
 display: flex;
 justify-content: space-between;
 align-items: center;

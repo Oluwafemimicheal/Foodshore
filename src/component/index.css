@@ -73,11 +73,14 @@
 
 /* Component style */
 
+
+/* Header style */
+
 .search-items {
     width: 40%;
-    background-color: brown;
+    background-color: #997410;
     border-radius: 10px;
-    border: 2px solid brown;
+    border: 2px solid #997410;
     overflow: hidden;
     display: flex;
     align-items: center;
@@ -102,7 +105,7 @@
 }
 
 .search-items:hover {
-    background-color: rgb(194, 47, 47) !important;
+    background-color: #bd962c!important;
 }
 
 span {
@@ -113,5 +116,8 @@ span {
 }
 
 span:hover {
-    border: 2px solid brown;
+    border: 2px solid #997410;
 }
+
+
+/* Hero Style */
