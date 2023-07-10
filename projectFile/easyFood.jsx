@@ -2,6 +2,8 @@ import React from 'react';
 import {Header, Div, DivColor, Input} from '../src/component/style'
 import {BsSearch} from 'react-icons/bs'
 import {BiSolidDownArrow, BiSolidCart} from 'react-icons/bi'
+import {ImLocation2} from 'react-icons/im'
+
 
 
 const EasyFood = () => {
@@ -14,7 +16,7 @@ const EasyFood = () => {
                     </div>
                     <span>
                         <p>Delivery to</p>
-                        <small>Nigeria</small>
+                        <h4><ImLocation2/>Nigeria</h4>
                     </span>
                     <div className="search-items">
                         <select name="" id="">
@@ -30,16 +32,16 @@ const EasyFood = () => {
                         <BsSearch className='search-icon'/>
                     </div>
                     <span>
-                        <h4>Hello,sign in</h4>
-                        <h3>Account & Lists <BiSolidDownArrow/></h3>
+                        <h5>Hello,sign in</h5>
+                        <h4>Account & Lists <BiSolidDownArrow className='fs-1'/></h4>
                     </span>
                     <span>
-                        <h4>Return</h4>
-                        <h3>& Orders <BiSolidDownArrow/></h3>
+                        <h5>Return</h5>
+                        <h4>& Orders <BiSolidDownArrow className='fs-1'/></h4>
                     </span>
                     <span className='flex'>
-                       <BiSolidCart className='fs-1'/>
-                        <h3>Card</h3>
+                       <BiSolidCart className='fs-2'/>
+                        <h4 className='pt-2'>Card</h4>
                     </span>
                 </Div>
                 <DivColor>
@@ -50,6 +52,7 @@ const EasyFood = () => {
                         <li><a className='ac' href="#">Registry</a></li>
                         <li><a className='ac' href="#">Sell</a></li>
                     </ul>
+                    <h4>Shop great deals now</h4>
                 </DivColor>
             </Header>
         </>

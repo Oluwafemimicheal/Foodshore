@@ -4,9 +4,8 @@ export const Header = styled.header`
 position: relative;
 display: flex;
 flex-direction: column;
-gap: 20px;
 background-color: lightgreen;
-padding: 20px 40px 0px ;
+padding: 3px 40px 0px ;
 `
 export const Div = styled.div`
 display: flex;
@@ -18,7 +17,8 @@ background-color: brown;
 display: flex;
 justify-content: space-between;
 align-items: center;
-padding: 0 5px;
+margin-top: 3px;
+padding: 0 10px;
 color: white;
 `
 export const Input  = styled.input`

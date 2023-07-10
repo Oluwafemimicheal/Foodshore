@@ -58,9 +58,20 @@
     color: white;
 }
 
-.fs-1 {
-    font-size: 3.2rem;
+.fs-3 {
+    font-size: 3rem;
 }
+
+.fs-2 {
+    font-size: 2.5rem;
+}
+
+.fs-1 {
+    font-size: 0.8rem;
+}
+
+
+/* Component style */
 
 .search-items {
     width: 40%;
@@ -92,4 +103,15 @@
 
 .search-items:hover {
     background-color: rgb(194, 47, 47) !important;
+}
+
+span {
+    cursor: pointer;
+    border: 2px solid transparent;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+span:hover {
+    border: 2px solid brown;
 }
