@@ -1,10 +1,13 @@
 import React from 'react';
+import {Header} from 'styled-components'
 
 const EasyFood = () => {
     return (
-        <div>
-            <h1>Easyfood</h1>
-        </div>
+        <>
+        <Header>
+            <h1>Header</h1>
+        </Header>
+        </>
     );
 }
 
