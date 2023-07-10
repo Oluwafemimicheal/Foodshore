@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+/* General style */
+
+:root {
+    --primaryColor: 'lightgreen';
+    --secondaryColor: 'brown';
+    --blackColor: rgb(20, 20, 20);
+    --grayColor: rgb(158, 158, 158);
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.jc {
+    justify-content: center;
+}
+
+.js {
+    justify-content: space-between;
+}
+
+.gap-1 {
+    gap: 10px;
+}
+
+.gap-2 {
+    gap: 20px;
+}
+
+.gap-3 {
+    gap: 30px;
+}
+
+.pt-1 {
+    padding-top: 10px;
+}
+
+.pt-2 {
+    padding-top: 20px;
+}
+
+.ptd {
+    padding: 10px 0;
+}
+
+.ac {
+    color: white;
+}
+
+.fs-1 {
+    font-size: 3.2rem;
+}
+
+.search-items {
+    width: 40%;
+    background-color: brown;
+    border-radius: 10px;
+    border: 2px solid brown;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    transition: .3s ease;
+}
+
+.search-items select {
+    width: 15%;
+    padding: 10px 0;
+    font-size: 0.9rem;
+    border-right: 1px solid rgb(214, 214, 214);
+    background-color: rgb(214, 214, 214);
+    cursor: pointer;
+}
+
+.search-items .search-icon {
+    padding: 0 10px !important;
+    color: white !important;
+    font-size: 1.5rem;
+    align-items: center;
+    cursor: pointer;
+}
+
+.search-items:hover {
+    background-color: rgb(194, 47, 47) !important;
+}

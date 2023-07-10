@@ -1,6 +1,7 @@
 import React from 'react';
 import {Header, Div, DivColor, Input} from '../src/component/style'
 import {BsSearch} from 'react-icons/bs'
+import {BiSolidDownArrow, BiSolidCart} from 'react-icons/bi'
 
 
 const EasyFood = () => {
@@ -15,7 +16,7 @@ const EasyFood = () => {
                         <p>Delivery to</p>
                         <small>Nigeria</small>
                     </span>
-                    <div className="search-items flex jc gap-2">
+                    <div className="search-items">
                         <select name="" id="">
                             <option value="Food-bulk">All</option>
                             <option value="Food-bulk">Food Bulk</option>
@@ -25,9 +26,21 @@ const EasyFood = () => {
                             <option value="Food-bulk">Food Support Self</option>
                             <option value="Food-bulk">Food Kitchen Light</option>
                         </select>
-                        <Input type="text" />
-                        <BsSearch/>
+                        <Input type="text" placeholder='Search' />
+                        <BsSearch className='search-icon'/>
                     </div>
+                    <span>
+                        <h4>Hello,sign in</h4>
+                        <h3>Account & Lists <BiSolidDownArrow/></h3>
+                    </span>
+                    <span>
+                        <h4>Return</h4>
+                        <h3>& Orders <BiSolidDownArrow/></h3>
+                    </span>
+                    <span className='flex'>
+                       <BiSolidCart className='fs-1'/>
+                        <h3>Card</h3>
+                    </span>
                 </Div>
                 <DivColor>
                     <ul className='flex gap-3 ptd'>

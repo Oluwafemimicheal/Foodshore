@@ -22,6 +22,7 @@ padding: 0 5px;
 color: white;
 `
 export const Input  = styled.input`
+width: 100%;
 padding: 10px;
 background-color: white;
 font-size: 1rem;
