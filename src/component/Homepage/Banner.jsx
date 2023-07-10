@@ -1,10 +1,11 @@
 import React from 'react';
+import { Hero } from '../style';
 
 const Banner = () => {
     return (
-        <div>
-            
-        </div>
+      <Hero>
+
+      </Hero>
     );
 }
 

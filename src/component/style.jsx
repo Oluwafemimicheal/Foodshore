@@ -28,3 +28,9 @@ background-color: white;
 font-size: 1rem;
 color: #7c7c7c;
 `
+export const Hero = styled.div`
+position: relative;
+width: 100%;
+height: 70vh;
+background: linear-gradient(180deg,#e0de59 , white ) ;
+`
