@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root {
+    --primaryColor: 'lightgreen';
+    --secondaryColor: 'brown';
+    --blackColor: rgb(20, 20, 20);
+    --grayColor: rgb(158, 158, 158);
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.jc {
+    justify-content: center;
+}
+
+.js {
+    justify-content: space-between;
+}
