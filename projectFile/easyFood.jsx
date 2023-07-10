@@ -1,12 +1,18 @@
 import React from 'react';
-import {Header} from 'styled-components'
+import styled from 'styled-components'
 
+
+const Header = styled.header`
+display: flex;
+background-color: lightgreen;
+padding: 20px 0;
+`
 const EasyFood = () => {
     return (
         <>
-        <Header>
-            <h1>Header</h1>
-        </Header>
+            <Header>
+                Hello
+            </Header>
         </>
     );
 }
