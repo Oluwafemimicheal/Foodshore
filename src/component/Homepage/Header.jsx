@@ -1,10 +1,10 @@
 import React from 'react';
-import styled from 'styled-components';
+import EasyFood from '../../../projectFile/easyFood';
 
 const Header = () => {
     return (
         <div>
-            
+            <EasyFood/>
         </div>
     );
 }
