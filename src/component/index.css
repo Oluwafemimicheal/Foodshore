@@ -17,6 +17,12 @@
     --grayColor: rgb(158, 158, 158);
 }
 
+.container {
+    width: 95%;
+    max-width: 1560px;
+    margin: auto;
+}
+
 .flex {
     display: flex;
     align-items: center;
@@ -121,3 +127,12 @@ span:hover {
 
 
 /* Hero Style */
+
+.hero-container {
+    padding-top: 30px;
+}
+
+.hero-container h1 {
+    font-size: 2.2rem;
+    color: rgb(34, 34, 34);
+}
