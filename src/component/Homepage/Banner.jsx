@@ -5,7 +5,7 @@ import { Hero } from '../style';
 const Banner = () => {
   const [loopNum, setLoopNum] = useState(0)
   const [isDeleting, setIsDeleting] = useState(false)
-  const toRotate = ['Web Developer', 'Web Designer', 'UI/UX Designer']
+  const toRotate = ['Your Foodstuff ', 'Best Foodstuff Items ', 'Quality with 30% off ']
   const [text, setText]= useState('')
   const [delta, setDelta] =useState(300-Math.random()*100)
   const period = 2000
@@ -39,7 +39,11 @@ const Banner = () => {
     return (
       <Hero>
         <div className="hero-container container">
-            <h1>We deliver your groceries {text}<br/> to your front door</h1>
+          <div className="text flex fd-c">
+            <h1>We deliver</h1>
+            <span>{text}</span>
+            <h1>to your door step</h1>
+          </div>
         </div>
       </Hero>
     );

@@ -36,6 +36,10 @@
     justify-content: space-between;
 }
 
+.fd-c {
+    flex-direction: column;
+}
+
 .gap-1 {
     gap: 10px;
 }
@@ -129,10 +133,25 @@ span:hover {
 /* Hero Style */
 
 .hero-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     padding-top: 30px;
 }
 
-.hero-container h1 {
-    font-size: 2.2rem;
-    color: rgb(34, 34, 34);
+.hero-container .text {
+    margin-top: 100px;
+}
+
+.hero-container h1,
+.hero-container span {
+    font-size: 3.4rem;
+    color: brown;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.hero-container span {
+    color: #e0de59;
 }
