@@ -150,7 +150,7 @@ span:hover {
     bottom: 0;
     left: 0;
     width: 100%;
-    background: linear-gradient(180deg, transparent, rgb(8, 8, 8));
+    background: linear-gradient(180deg, transparent, rgb(255, 255, 255));
     height: 400px;
 }
 
@@ -161,12 +161,11 @@ span:hover {
 
 .hero-container h1,
 .hero-container span {
-    font-size: 3.4rem;
-    color: rgb(255, 255, 255);
+    font-size: 4rem;
+    color: rgb(0, 0, 0);
     font-weight: 700;
-    text-transform: uppercase;
 }
 
 .hero-container span {
-    color: #cdee11;
+    color: #413003;
 }
