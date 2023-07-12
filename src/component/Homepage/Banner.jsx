@@ -37,14 +37,13 @@ const Banner = () => {
   }
 
     return (
-      <Hero>
-        <div className="hero-container container">
-          <div className="text flex fd-c">
+      <Hero className='hero-container'>
+  
+          <div className="text flex fd-c container">
             <h1>We deliver</h1>
             <span>{text}</span>
             <h1>to your door step</h1>
           </div>
-        </div>
       </Hero>
     );
 }

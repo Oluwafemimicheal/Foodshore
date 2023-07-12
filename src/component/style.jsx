@@ -1,9 +1,8 @@
 import styled from 'styled-components'
 
-export const Header = styled.header`
+export const Headers = styled.header`
 display: flex;
 flex-direction: column;
-background-color: #e0de59;
 padding: 3px 40px 0px ;
 overflow: hidden;
 `
@@ -31,5 +30,11 @@ color: #7c7c7c;
 export const Hero = styled.div`
 position: relative;
 width: 100%;
-height: 90vh;
+height: 80vh;
+`
+export const Item = styled.div`
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
 `
