@@ -33,8 +33,11 @@ width: 100%;
 height: 60vh;
 `
 export const Item = styled.div`
+width: 90%;
+margin: 50px auto;
 display: flex;
 justify-content: space-between;
 align-items: center;
+gap: 20px;
 flex-wrap: wrap;
 `

@@ -1,21 +1,34 @@
 import React from 'react';
-import { Item } from '../style';
+import data from '../../../data'
 
 const Items = () => {
-    return (
-       <Item>
+    let item = [...data.products]
+    
+    let productItems = item.map((item)=>{
+
+        const {productImage, productName, price} = item
+        return`
         <div className="card">
-            <div className="card-image">
-            
-            </div>
-            <div className="card-text">
-                <h1>flesh Tomatoes</h1>
-            </div>
-            <div className="tag">
-                <small>30% OFF</small>
-            </div>
+        <div className="card-image">
+            <img src=${productImage} />
         </div>
-       </Item>
+        <div className="card-text">
+            <h1>${productName}</h1>
+        </div>
+        <div className="tag">
+            <small>${price}</small>
+        </div>
+    </div>
+        `
+    })
+
+    let items = productItems.join('')
+
+    return (
+       <>
+        {items}
+        
+       </>
     );
 }
 
