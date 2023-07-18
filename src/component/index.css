@@ -88,9 +88,9 @@
 
 .search-items {
     width: 40%;
-    background-color: #997410;
+    background-color: #37F176;
     border-radius: 10px;
-    border: 2px solid #997410;
+    border: 2px solid #37F176;
     overflow: hidden;
     display: flex;
     align-items: center;
@@ -102,7 +102,7 @@
     padding: 10px 0;
     font-size: 0.9rem;
     border-right: 1px solid rgb(214, 214, 214);
-    background-color: rgb(214, 214, 214);
+    background-color: #37F176;
     cursor: pointer;
 }
 
@@ -115,7 +115,7 @@
 }
 
 .search-items:hover {
-    background-color: #bd962c!important;
+    background-color: #37F176!important;
 }
 
 span {
@@ -126,7 +126,7 @@ span {
 }
 
 span:hover {
-    border: 2px solid #997410;
+    border: 2px solid #37F176;
 }
 
 
@@ -150,7 +150,7 @@ span:hover {
     bottom: 0;
     left: 0;
     width: 100%;
-    background: linear-gradient(180deg, transparent, rgb(255, 255, 255));
+    background: linear-gradient(180deg, transparent, #37F176);
     height: 400px;
 }
 
@@ -167,5 +167,5 @@ span:hover {
 }
 
 .hero-container span {
-    color: #413003;
+    color: #ffffff;
 }

@@ -12,7 +12,7 @@ justify-content: space-between;
 align-items: center;
 `
 export const DivColor = styled.div`
-background-color: #997410;
+background-color: #37F176;
 display: flex;
 justify-content: space-between;
 align-items: center;
