@@ -30,7 +30,7 @@ color: #7c7c7c;
 export const Hero = styled.div`
 position: relative;
 width: 100%;
-height: 50vh;
+height: 60vh;
 `
 export const Item = styled.div`
 display: flex;
