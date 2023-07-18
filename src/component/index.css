@@ -150,8 +150,8 @@ span:hover {
     bottom: 0;
     left: 0;
     width: 100%;
-    background: linear-gradient(180deg, transparent, #37F176);
-    height: 400px;
+    background: #BFC20E;
+    height: 200px;
 }
 
 .hero-container .text {
