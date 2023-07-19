@@ -8,7 +8,7 @@ const Product = () => {
         <div>
             {data.products.map((item)=>{
                 const {productName, productImage, percentage, id}=item
-                <Card img={productImage} title={productName} off={percentage} key={id}/>
+               return <Card img={productImage} title={productName} off={percentage} key={id}/>
             })
             }
         </div>
