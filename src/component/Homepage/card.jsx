@@ -1,17 +1,26 @@
 import React from 'react';
+import data from '../../../data'
 
-const Card = (img, title, off) => {
+const Card = () => {
     return (
         <div>
             <div className="card">
-                <div className="image">
-                    <img src={img} alt="" />
-                </div>
-                <div className="text">
-                    <h1>{title}</h1>
-                    <small>{off}</small>
-                    <a href="#" className='btn'>Order</a>
-                </div>
+                {data.products.map((item)=>{
+                    return(
+                        <div>
+                            <div className="image">
+                                <img src={item.productImage} alt="" />
+                            </div>
+                            <div className="text">
+                                <h1>{item.productName}</h1>
+                                <small>{item.percentage}</small>
+                                <a href="#" className='btn'>Order</a>
+                            </div>
+                        </div>
+                    )
+                })
+                }
+               
             </div>
         </div>
     );
