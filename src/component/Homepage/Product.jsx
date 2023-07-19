@@ -1,26 +1,24 @@
 import React from 'react';
-import { Item } from '../style';
-import Items from './Items';
 import data from '../../../data'
+import Card from './card';
+
 
 const Product = () => {
-
-    const card = data.products.map(item =>{
-            return(
-                <Items
-                    key={item.id}
-                    img={item.productImage}
-                    title={item.productName}
-                    tag={item.price}
-                />
-            )
+    let datas = [...data.products]
+    const items = datas.map((item)=>{
+        return (
+            <Card
+            key={item.id}
+            img={item.productImage}
+            title={item.productName}
+            off={item.percentage}
+            />
+        )
     })
-
     return (
-      <Item>
-        {card}
-      </Item>
-    
+        <div>
+            {items}
+        </div>
     );
 }
 
