@@ -5,6 +5,7 @@
     border: none;
     list-style: none;
     text-decoration: none;
+    color: black;
 }
 
 
@@ -177,17 +178,68 @@ span:hover {
 
 .card {
     position: relative;
-    width: 270px;
+    width: 222px;
     height: 300px;
     box-shadow: 0px 1px 13px rgba(141, 141, 141, 0.1);
     cursor: pointer;
     transition: all 120ms;
     display: flex;
     align-items: flex-start;
-    justify-content: center;
+    justify-content: flex-start;
     background: #fff;
     padding: 0.5em;
-    padding-bottom: 3.4em;
-    gap: 20px;
+    gap: 10px;
     flex-direction: column;
+    overflow: hidden;
+}
+
+.card .image {
+    width: 222px;
+    height: 150px;
+    overflow: hidden;
+}
+
+.card .image img {
+    width: 100%;
+}
+
+.card small {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(190, 49, 49);
+    color: white;
+}
+
+.card .text {
+    line-height: 1.5;
+}
+
+.card .text p {
+    margin-bottom: 10px;
+}
+
+.card .text h1 {
+    font-size: 1.2rem;
+}
+
+.card .btn {
+    padding: 6px 20px;
+    background-color: #37F176;
+    border-radius: 5px;
+    border: 2px solid transparent;
+    transition: all 520ms;
+}
+
+.card .btn:hover {
+    background-color: transparent;
+    border: 2px solid #37F176;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }

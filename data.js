@@ -1,46 +1,46 @@
 const products = [{
         id: 1,
-        productImage: './',
+        productImage: 'public/image/bags-of-rice.jpg',
         productName: 'Bag of Rice',
         price: '40,000',
         categories: 'full-product',
         marketFrom: 'Nigeria',
-        percentage: '-30% off',
+        percentage: '-30% OFF',
         kg: '40kg'
     },
     {
         id: 2,
-        productImage: '',
+        productImage: '/image/Beans.jpg',
         productName: 'Bag of Beans',
         price: '33,000',
         categories: 'full-product',
         marketFrom: 'Nigeria',
-        percentage: '-30% off',
+        percentage: '-50% off',
         kg: '50kg'
     },
     {
         id: 3,
-        productImage: '',
-        productName: 'Groundnut Oil',
-        price: '15,000',
+        productImage: '/image/1.jpg',
+        productName: 'Semolina',
+        price: '9,000',
         categories: 'full-product',
-        marketFrom: 'Nigeria',
+        marketFrom: 'Ghana',
         percentage: '-30% off',
         kg: '25kg'
 
     },
     {
         id: 4,
-        productImage: '',
-        productName: 'Bag of Rice',
-        price: '40,000',
+        productImage: '/image/cls19lr124h.jpg',
+        productName: 'Groundnut Oil',
+        price: '15,000',
         categories: 'full-product',
-        marketFrom: 'Nigeria',
+        marketFrom: 'South Africa',
         percentage: '-30% off'
     },
     {
         id: 5,
-        productImage: '',
+        productImage: '/image/fa-barboza-NWoaoMgMiVY-unsplash.jpg',
         productName: 'Bag of Rice',
         price: '40,000',
         categories: 'full-product',
@@ -75,7 +75,6 @@ const products = [{
         percentage: '-30% off'
     }
 ]
-
 const productPackage = [{
         id: 1,
         productImage: '',

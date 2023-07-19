@@ -1,6 +1,7 @@
 import React from 'react';
+import {TbCurrencyNaira} from 'react-icons/tb'
 
-const Card = ({img, title, off}) => {
+const Card = ({img, title, off, price,  marketFrom}) => {
     return (
         <div>
             <div className="card">
@@ -9,9 +10,11 @@ const Card = ({img, title, off}) => {
                 </div>
                 <div className="text">
                     <h1>{title}</h1>
-                    <small>{off}</small>
+                    <h4><TbCurrencyNaira/>{price}</h4>
+                    <p><b>Market:</b> {marketFrom}</p>
                     <a href="#" className='btn'>Order</a>
                 </div>
+                <small>{off}</small>
             </div>
         </div>
     );

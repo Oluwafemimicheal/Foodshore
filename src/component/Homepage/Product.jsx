@@ -6,9 +6,9 @@ import { Item } from '../style';
 
 const Product = () => {
     const items = data.products.map((item)=>{
-        const {productImage, productName, percentage, id} = item
+        const {productImage, productName, percentage,price,  marketFrom, id} = item
         return (
-            <Card img={productImage} title={productName} off={percentage} key={id}/>
+            <Card img={productImage} title={productName} off={percentage} price={price}  marketFrom={marketFrom} key={id}/>
         )
     })
     return (

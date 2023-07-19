@@ -33,11 +33,16 @@ width: 100%;
 height: 60vh;
 `
 export const Item = styled.div`
-width: 90%;
+width: 95%;
 margin: 50px auto;
 display: flex;
-justify-content: space-between;
+justify-content: center;
 align-items: center;
 gap: 20px;
 flex-wrap: wrap;
+`
+export const Footer = styled.div`
+    width: 95%;
+    margin: 50% auto;
+    background-color: #272323;
 `
