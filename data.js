@@ -1,6 +1,6 @@
 const products = [{
         id: 1,
-        productImage: '',
+        productImage: './',
         productName: 'Bag of Rice',
         price: '40,000',
         categories: 'full-product',
@@ -58,6 +58,15 @@ const products = [{
     },
     {
         id: 7,
+        productImage: '',
+        productName: 'Bag of Rice',
+        price: '40,000',
+        categories: 'full-product',
+        marketFrom: 'Nigeria',
+        percentage: '-30% off'
+    },
+    {
+        id: 8,
         productImage: '',
         productName: 'Bag of Rice',
         price: '40,000',
