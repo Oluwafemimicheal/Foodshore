@@ -1,8 +1,9 @@
 import React from 'react';
+import { FooterDiv } from '../style';
 
 const Footer = () => {
     return (
-       <Footer>
+       <FooterDiv>
             <div className='footer-links'>
                 <ul>
                     <h1>Get to Know Us</h1>
@@ -41,7 +42,11 @@ const Footer = () => {
                     <li><a href="#">Help</a></li>
                 </ul>
             </div>
-       </Footer>
+            <div className="footer-down">
+                <small>easyFoods &copy; 2023</small>
+                <small>Developer by Oluwafemi Micheal</small>
+            </div>
+       </FooterDiv>
     );
 }
 

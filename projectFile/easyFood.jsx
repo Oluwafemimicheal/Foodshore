@@ -9,7 +9,7 @@ const EasyFood = () => {
        <Header/>
        <Banner/>
        <Product/>
-       {/* <Footer/> */}
+       <Footer/>
         </>
     );
 }

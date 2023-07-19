@@ -239,7 +239,41 @@ span:hover {
 }
 
 .footer-links {
+    width: 75%;
+    margin: auto;
+    padding: 50px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.footer-links ul {
+    line-height: 1.5;
+}
+
+.footer-links ul h1 {
+    color: white;
+    font-size: 1.1rem;
+}
+
+.footer-links ul li a {
+    font-size: 14px;
+    color: rgb(228, 225, 225);
+    border: 1px solid transparent;
+}
+
+.footer-links ul li a:hover {
+    border: 1px solid rgb(228, 225, 225)
+}
+
+.footer-down {
+    padding: 20px;
+    background-color: #1c2631;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-down small {
+    color: rgb(223, 223, 223);
 }

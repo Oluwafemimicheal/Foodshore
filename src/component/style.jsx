@@ -41,8 +41,6 @@ align-items: center;
 gap: 20px;
 flex-wrap: wrap;
 `
-export const Footer = styled.div`
-    width: 95%;
-    margin: 50% auto;
-    background-color: #272323;
+export const FooterDiv = styled.div`
+    background-color: #232F3E;
 `
