@@ -73,9 +73,29 @@ const products = [{
         categories: 'full-product',
         marketFrom: 'Nigeria',
         percentage: '-30% off'
+    },
+    {
+        id: 8,
+        productImage: '',
+        productName: 'Bag of Rice',
+        price: '40,000',
+        categories: 'full-product',
+        marketFrom: 'Nigeria',
+        percentage: '-30% off'
+    },
+    {
+        id: 3,
+        productImage: '/image/1.jpg',
+        productName: 'Semolina',
+        price: '9,000',
+        categories: 'full-product',
+        marketFrom: 'Ghana',
+        percentage: '-30% off',
+        kg: '25kg'
+
     }
 ]
-const productPackage = [{
+const familyPackage = [{
         id: 1,
         productImage: '',
         productName: 'Monthly Package',
@@ -105,11 +125,33 @@ const productPackage = [{
         percentage: '-30% off',
         kg: '25kg'
 
+    },
+    {
+        id: 3,
+        productImage: '',
+        productName: 'Self Package',
+        price: '15,000',
+        categories: 'full-product',
+        marketFrom: 'Nigeria',
+        percentage: '-30% off',
+        kg: '25kg'
+
+    },
+    {
+        id: 3,
+        productImage: '',
+        productName: 'Self Package',
+        price: '15,000',
+        categories: 'full-product',
+        marketFrom: 'Nigeria',
+        percentage: '',
+        kg: '25kg'
+
     }
 ]
 
 
 export default {
     products,
-    productPackage
+    familyPackage
 }

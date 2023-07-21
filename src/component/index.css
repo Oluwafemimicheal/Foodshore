@@ -8,6 +8,10 @@
     color: black;
 }
 
+body {
+    background-color: #fafafa;
+}
+
 
 /* General style */
 
@@ -142,6 +146,17 @@ span:hover {
     background-position: center;
     background-size: 100%;
     overflow: hidden;
+    animation: bg 10s steps(1) infinite;
+}
+
+@keyframes bg {
+    0% {
+        background: url('../images/megan-thomas-xMh_ww8HN_Q-unsplash.jpg');
+    }
+    50% {
+        background: url('../images/jametlene-reskp-vUVa3_oGvXE-unsplash.jpg') no-repeat;
+        background-size: 100%;
+    }
 }
 
 .hero-container::before {
@@ -150,9 +165,19 @@ span:hover {
     top: 20%;
     right: 24%;
     width: 100%;
-    background: #BFC20E;
+    background: #626275;
     transform: rotate(65deg);
     height: 100vh;
+    animation: textbg 10s steps(1) infinite;
+}
+
+@keyframes textbg {
+    0% {
+        background-color: lightgreen;
+    }
+    50% {
+        background-color: rgb(167, 116, 21);
+    }
 }
 
 .hero-container .text {
@@ -203,6 +228,10 @@ span:hover {
     width: 100%;
 }
 
+.no {
+    display: none;
+}
+
 .card small {
     position: absolute;
     top: 0;
@@ -226,7 +255,7 @@ span:hover {
 }
 
 .card .btn {
-    padding: 6px 20px;
+    padding: 5px 20px;
     background-color: #37F176;
     border-radius: 5px;
     border: 2px solid transparent;
@@ -259,11 +288,11 @@ span:hover {
 .footer-links ul li a {
     font-size: 14px;
     color: rgb(228, 225, 225);
-    border: 1px solid transparent;
+    border-bottom: 1px solid transparent;
 }
 
 .footer-links ul li a:hover {
-    border: 1px solid rgb(228, 225, 225)
+    border-bottom: 1px solid rgb(228, 225, 225)
 }
 
 .footer-down {
@@ -276,4 +305,19 @@ span:hover {
 
 .footer-down small {
     color: rgb(223, 223, 223);
+}
+
+.package-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px 0 rgb(233, 233, 233);
+}
+
+.package-section .package-item {
+    flex-wrap: wrap;
+    margin-top: 10px;
+    gap: 10px;
 }
